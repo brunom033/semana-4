@@ -12,6 +12,6 @@ function humanizeDatePost ($date) {
     $date.textContent = capitalize(humanizedDate);
 }
 
-// Obtener todos los elementos time para conversión
+// Obtener todos los elementos time para la conversión
 const $dates = document.querySelectorAll("time");
 $dates.forEach(humanizeDatePost);
